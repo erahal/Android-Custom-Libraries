@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VolleyTest</string>
+    <string name="json_request">Making JSON request</string>
+    <string name="json_array_request">Making JSON Array request</string>
+    <string name="string_request">Making String request</string>
+    <string name="post_with_parameters">Post With Parameters</string>
+    <string name="load_network_image">Load Network Image</string>
+    <string name="load_normal_image_view">Load Normal Image View</string>
+    <string name="load_image_withplaceholder_and_error">Load Image With Place Holder And Error</string>
+    <string name="clear_cache">Clear Cache</string>
+</resources>

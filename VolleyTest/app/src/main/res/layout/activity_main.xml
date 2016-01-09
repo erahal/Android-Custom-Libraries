@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.epollomes.volleytest.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_json_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/json_request">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_json_array_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/json_array_request">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_string_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_request">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_post_with_params"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/post_with_parameters">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_post_with_arguments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/load_network_image">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_load_normal_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/load_normal_image_view">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_load_image_with_placeholder_anderror"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/load_image_withplaceholder_and_error">
+            </Button>
+
+
+            <Button
+                android:id="@+id/btn_clear_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/clear_cache">
+            </Button>
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/network_image_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"/>
+
+            <ImageView
+                android:id="@+id/image_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_view_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
