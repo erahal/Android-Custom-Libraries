@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerViewWithSearch</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="test">Dummy Text</string>
+    <string name="action_search2">Search</string>
+    <string name="clear_search">Clear</string>
+</resources>
