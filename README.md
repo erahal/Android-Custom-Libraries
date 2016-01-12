@@ -16,5 +16,5 @@
 * Filtering on the text, using a SearchView in the Toolbar
 * Custom scroll animation using YoYo AndroidViewAnimation library for row
 * Custom animation of the addition and removal of items in the recyclerview
-* Custom animation between parent and child activity
+* Custom animation between parent and child activity (R.anim)
 * Up button from child activity to parent activity on phones and portrait-tablet
