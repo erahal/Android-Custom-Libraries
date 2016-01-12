@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.toolbar_menu, menu);
         final SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.action_search));
@@ -114,7 +113,6 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         ((RecyclerView) mRecyclerView).scrollToPosition(0);
         return true;
     }
-
 
     //Below code is for setting upf the recycler view
     RecyclerViewContentAdapter mRecyclerViewContentAdapter;
