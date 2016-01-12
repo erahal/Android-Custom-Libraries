@@ -4,4 +4,5 @@
     <string name="test">Dummy Text</string>
     <string name="action_search2">Search</string>
     <string name="clear_search">Clear</string>
+    <string name="recycler_view_title">Recycler View Demo</string>
 </resources>

@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.recycler_view_title);
         setSupportActionBar(toolbar);
-        toolbar.setTitle(getTitle());
 
         mListOfItems = new ArrayList<>();
         mRecyclerView = findViewById(R.id.item_list);
@@ -224,6 +224,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                         Intent intent = new Intent(context, ItemDetailActivity.class);
                         intent.putExtra(ItemDetailFragment.ARG_ITEM_ID, holder.mItemModel.getImageURL());
                         context.startActivity(intent);
+                        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                     }
                 }
             });
@@ -334,5 +335,33 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         return filteredModelList;
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e("EEEE", "Destroyed");
+    }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e("EEEE", "Pause");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e("EEEE", "Resume");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e("EEEE", "Stop");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.e("EEEE", "Start");
+    }
 }
