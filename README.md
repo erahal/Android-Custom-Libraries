@@ -18,3 +18,13 @@
 * Custom animation of the addition and removal of items in the recyclerview
 * Custom animation between parent and child activity (R.anim)
 * Up button from child activity to parent activity on phones and portrait-tablet
+
+**GalleryAndUpload**: A custom gallery, to take several pictures and upload them to the server
+
+* Open camera and take pictures
+* Unlimited number of picutres
+* Fast and reliable, the images are displayed in the grid are thumnails generated so that the module does not increase memory
+* Upload to server via the AyncHttp Module (Upload keeps working in the background until it is done)
+* Automatically removes uploaded image
+* Possibility to remove unwated image
+ 
