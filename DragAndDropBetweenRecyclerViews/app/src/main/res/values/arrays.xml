@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="resicon2">
+        <item>@drawable/ic_looks_one_24dp</item>
+        <item>@drawable/ic_looks_two_24dp</item>
+        <item>@drawable/ic_looks_3_24dp</item>
+        <item>@drawable/ic_looks_4_24dp</item>
+        <item>@drawable/ic_looks_5_24dp</item>
+        <item>@drawable/ic_looks_6_24dp</item>
+        <item>@drawable/ic_filter_7_24dp</item>
+        <item>@drawable/ic_filter_8_24dp</item>
+        <item>@drawable/ic_filter_9_24dp</item>
+        <item>@drawable/ic_whatshot_24dp</item>
+    </array>
+    <array name="restext2">
+        <item>"One"</item>
+        <item>"Two"</item>
+        <item>"Three"</item>
+        <item>"Four"</item>
+        <item>"Five"</item>
+        <item>"Six"</item>
+        <item>"Seven"</item>
+        <item>"Eight"</item>
+        <item>"Nine"</item>
+        <item>"Fire"</item>
+    </array>
+
+</resources>
