@@ -43,8 +43,9 @@
 * Clear single notification
 * Clear all notification
 
-**DragAndDropBetweenRecyclerViews**: Based on the tutorial in http://android-er.blogspot.com/
-* Drag and Drop between two Recycler Views
+**DragAndDropBetweenRecyclerViews**: Based on the listview tutorial in http://android-er.blogspot.com/
+
+* Drag and Drop between two Recycler Views for better performance
 
  
 
