@@ -28,3 +28,27 @@
 * Automatically removes uploaded image
 * Possibility to remove unwated image
  
+**FacebookLogin**: A Simple test for facebook login button
+
+* You must follow the intergration steps and create a facebook app in the facebook developer tools
+ 
+**NotificationTest**: A quick demo for the notification in the support library accross
+
+* Simple Notification
+* Clickable Notification
+* Notification with an Icon and Colored small icon
+* Expandable "Big Text Style"
+* Expandable "Big Picture Style"
+* Exapandable "Inbox Style"
+* Clear single notification
+* Clear all notification
+
+**DragAndDropBetweenRecyclerViews**: Based on the listview tutorial in http://android-er.blogspot.com/
+
+* Drag and Drop between two Recycler Views for better performance
+
+ 
+
+
+
+
